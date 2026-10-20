@@ -1,7 +1,7 @@
 # Embedded-M04 ⚡
 
 <p align="center">
-  <img src="../Embedded-M00/assets/atmega328p.png" alt="ATmega328P board illustration" width="330" height="170" style="border-radius: 12px;" />
+  <img src="assets/atmega328p.png" alt="ATmega328P board illustration" width="330" height="170" style="border-radius: 12px;" />
 </p>
 
 This module introduces external interrupts and the event-driven programming model used in embedded systems. Instead of polling continuously, the microcontroller reacts immediately when a hardware event occurs such as a rising or falling edge on an input pin.
