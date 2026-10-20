@@ -6,7 +6,7 @@
 /*   By: cycolonn <cycolonn@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/05 10:52:29 by cycolonn          #+#    #+#             */
-/*   Updated: 2026/10/15 18:06:37 by cycolonn         ###   ########.fr       */
+/*   Updated: 2026/10/20 11:41:33 by cycolonn         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -47,7 +47,7 @@ int main()
     {
         if (!(is_set(EIMSK, INT0)))
         {
-            _delay_ms(200);
+            _delay_ms(20);
             EIFR = (1U << INT0);
             SET(EIMSK, INT0);
         }
